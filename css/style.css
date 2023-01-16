@@ -2,7 +2,7 @@ html,
 body {
   min-width: 290px;
   color: #4d4e53;
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -10,8 +10,8 @@ body {
 #navbar {
   position: fixed;
   min-width: 290px;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 300px;
   height: 100%;
   border-right: solid;
@@ -28,7 +28,7 @@ header {
 
 #main-doc header {
   text-align: left;
-  margin: 0px;
+  margin: 0;
 }
 
 #navbar ul {
@@ -36,6 +36,10 @@ header {
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+section li {
+  margin: 15px 0 0 20px;
 }
 
 #navbar li {
@@ -65,10 +69,6 @@ section article {
   color: #4d4e53;
   margin: 15px;
   font-size: 0.96em;
-}
-
-section li {
-  margin: 15px 0px 0px 20px;
 }
 
 code {
@@ -107,7 +107,7 @@ code {
 
   #main-doc {
     position: relative;
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 270px;
   }
 }
